@@ -4,6 +4,21 @@
 - Este aqui é o projeto solicitado pela empresa digital pages.
 - Primeiro ponto a ser abordado é que não consegui realizar o consumo da API disponibilizada por problemas de cros na mesma, portanto peguei os dados e por meio de uma função que retorna um array de objetos, consegui realizar o teste.
 - Segundo ponto, pensei em fazer o desafio da forma mais simples e robusto dentro do tempo apresentado proposto, portanto foquei bastante em ferramentas de desenvolvimento onde auxiliam e padronizam a construção de um software.
+- Instruções para rodar o projeto local:
+- Primeiro clonar o projeto
+```
+https://github.com/murilio/fruit-calories.git
+```
+- Segundo passo acessar o terminal e seguir dois passos:
+```
+yarn
+# and
+yarn start
+```
+- Em seguida acessar no navegador de sua preferência
+```
+http://localhost:3000
+```
 
 ## :tada: Commit
 
