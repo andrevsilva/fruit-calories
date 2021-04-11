@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import { useState } from 'react'
 
 // styles
@@ -12,8 +13,8 @@ export default function Header () {
       <nav className={openMenu ? 'openMenu' : null}>
         <IconCloseMenu className="closeMenu" onClick={() => setOpenMenu(!openMenu)} />
         <ul>
-          <li><a href="/">Frutas</a></li>
-          <li><a href="/ferramentas">Ferramentas</a></li>
+          <li><NavLink to="/">Frutas</NavLink></li>
+          <li><NavLink to="/ferramentas">Ferramentas</NavLink></li>
         </ul>
       </nav>
       <h1>Frutas</h1>

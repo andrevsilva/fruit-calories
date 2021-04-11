@@ -5,6 +5,7 @@ import { dadosApi } from '../../utils/api'
 // components
 import Header from '../../components/Header'
 import List from '../../components/List'
+import Footer from '../../components/Footer'
 
 export default function Home () {
   const [dados, setDados] = useState([])
@@ -21,6 +22,7 @@ export default function Home () {
           <List key={item.name} name={item.name} img={item.photo} />
         ))}
       </section>
+      <Footer />
     </Container>
   )
 }
