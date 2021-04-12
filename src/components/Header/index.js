@@ -14,7 +14,6 @@ export default function Header () {
         <IconCloseMenu className="closeMenu" onClick={() => setOpenMenu(!openMenu)} />
         <ul>
           <li><NavLink to="/">Frutas</NavLink></li>
-          <li><NavLink to="/ferramentas">Ferramentas</NavLink></li>
         </ul>
       </nav>
       <h1>Frutas</h1>

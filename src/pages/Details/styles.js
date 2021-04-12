@@ -8,6 +8,7 @@ export const Container = styled.main`
 
   > section {
     padding: 80px 3% 20px;
+    height: 100%;
 
     > .return {
       cursor: pointer;
